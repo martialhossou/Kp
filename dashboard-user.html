@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KPay — Dashboard utilisateur</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="nav">
+    <div class="left">
+      <div class="logo">
+        <div class="logo-badge"><img src="logo.svg" alt="KPay"></div>
+        <span>KPay</span>
+      </div>
+      <div class="links">
+      <a href="dashboard-user.html">Dashboard</a>
+      <a href="ptc.html">PTC</a>
+      <a href="deposit.html">Dépôt</a>
+      <a href="withdraw.html">Retrait</a>
+      <a href="profile.html">Profil</a>
+    </div>
+    </div>
+    <div class="right"><span class="badge">user@kpay</span> <a class="btn ghost" href="index.html">Déconnexion</a></div>
+  </div>
+</div>
+
+<div class="container">
+<div class="kpis">
+  <div class="kpi"><strong>12 500</strong><div class="muted">Solde (XOF)</div></div>
+  <div class="kpi"><strong>7</strong><div class="muted">Clics du jour</div></div>
+  <div class="kpi"><strong>2</strong><div class="muted">Dépôts en attente</div></div>
+  <div class="kpi"><strong>0</strong><div class="muted">Retraits en attente</div></div>
+</div>
+<div class="flex">
+  <div class="sidebar">
+    <div class="widget">
+      <h3>Menu utilisateur</h3>
+      <ul class="muted">
+        <li><a href="dashboard-user.html">Aperçu</a></li>
+        <li><a href="ptc.html">Campagnes PTC</a></li>
+        <li><a href="deposit.html">Dépôt</a></li>
+        <li><a href="withdraw.html">Retrait</a></li>
+        <li><a href="profile.html">Profil</a></li>
+      </ul>
+    </div>
+    <div class="widget">
+      <h3>Annonce</h3>
+      <p class="muted">Paiements chaque vendredi.</p>
+    </div>
+  </div>
+  <div class="col" style="flex:1">
+    <div class="card">
+      <h3>Activité récente</h3>
+      <table class="table">
+        <tr><th>Date</th><th>Type</th><th>Montant</th></tr>
+        <tr><td>2025-09-10</td><td>ptc</td><td>+10</td></tr>
+        <tr><td>2025-09-09</td><td>deposit</td><td>+2 000</td></tr>
+        <tr><td>2025-09-08</td><td>withdraw</td><td>-1 000</td></tr>
+      </table>
+    </div>
+    <div class="card"><h3>Commencer</h3><p class="muted">Allez sur la page <a href="ptc.html">PTC</a> pour lancer une campagne.</p></div>
+  </div>
+</div>
+</div>
+<div class="container"><div class="footer">© 2025 KPay — Tous droits réservés</div></div>
+<script src="app.js"></script>
+</body></html>

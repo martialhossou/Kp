@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KPay — Réglages</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="nav">
+    <div class="left">
+      <div class="logo">
+        <div class="logo-badge"><img src="logo.svg" alt="KPay"></div>
+        <span>KPay</span>
+      </div>
+      <div class="links">
+      <a href="dashboard-admin.html">Admin</a>
+      <a href="admin-ptc.html">PTC</a>
+      <a href="admin-deposits.html">Dépôts</a>
+      <a href="admin-payouts.html">Retraits</a>
+      <a href="admin-settings.html">Réglages</a>
+    </div>
+    </div>
+    <div class="right"><span class="badge">admin@kpay</span> <a class="btn ghost" href="index.html">Déconnexion</a></div>
+  </div>
+</div>
+
+<div class="container">
+<div class="card">
+  <h2>Réglages</h2>
+  <div class="row">
+    <div class="col card">
+      <h3>Méthodes de paiement (JSON)</h3>
+      <pre class="muted" style="white-space:pre-wrap;background:rgba(255,255,255,.04);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.08)">
+[
+  {"slug":"link","name":"Lien de paiement","mode":"link","url":"https://pay.kpay.com","min_minor":100},
+  {"slug":"momo","name":"Mobile Money","mode":"number","number":"+22507123456","instructions":"Envoyez puis uploadez le reçu.","min_minor":2000}
+]</pre>
+    </div>
+    <div class="col card">
+      <h3>Annonce globale (HTML)</h3>
+      <div class="notice"><strong>Annonce :</strong> Bienvenue sur KPay, paiements le vendredi.</div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container"><div class="footer">© 2025 KPay — Tous droits réservés</div></div>
+<script src="app.js"></script>
+</body></html>

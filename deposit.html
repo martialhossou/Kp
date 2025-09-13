@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KPay — Dépôt</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="nav">
+    <div class="left">
+      <div class="logo">
+        <div class="logo-badge"><img src="logo.svg" alt="KPay"></div>
+        <span>KPay</span>
+      </div>
+      <div class="links">
+      <a href="dashboard-user.html">Dashboard</a>
+      <a href="ptc.html">PTC</a>
+      <a href="deposit.html">Dépôt</a>
+      <a href="withdraw.html">Retrait</a>
+      <a href="profile.html">Profil</a>
+    </div>
+    </div>
+    <div class="right"><span class="badge">user@kpay</span> <a class="btn ghost" href="index.html">Déconnexion</a></div>
+  </div>
+</div>
+
+<div class="container">
+<div class="card">
+  <h2>Dépôt (manuel)</h2>
+  <form class="form">
+    <label>Méthode
+      <select><option>Lien de paiement</option><option>Mobile Money</option></select>
+    </label>
+    <label>Montant (minor)<input type="number" placeholder="ex: 2000"></label>
+    <button class="btn">Créer un dépôt</button>
+  </form>
+  <div class="notice" style="margin-top:8px">
+    <strong>Lien:</strong> <a href="#">https://pay.kpay.com</a><br>
+    <small>Mobile Money: +22507123456 • Envoyez puis uploadez le reçu (dans la version PHP).</small>
+  </div>
+</div>
+</div>
+<div class="container"><div class="footer">© 2025 KPay — Tous droits réservés</div></div>
+<script src="app.js"></script>
+</body></html>
